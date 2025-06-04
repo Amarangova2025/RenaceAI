@@ -36,8 +36,8 @@ if frase:
 
     # Guardar en historial
     st.session_state.chat.append(("👩", frase))
-    st.session_state.chat.append(("🤖 Renace AI", f"Emoción detectada → {emocion.capitalize()}"))
-    st.session_state.chat.append(("🤖 Renace AI", respuestas[emocion]))
+    st.session_state.chat.append(("😥 Renace AI", f"Emoción detectada → {emocion.capitalize()}"))
+    st.session_state.chat.append(("💟 Renace AI", respuestas[emocion]))
 
 # Mostrar historial de conversación
 for autor, mensaje in st.session_state.chat:
